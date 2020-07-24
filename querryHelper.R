@@ -1,4 +1,4 @@
-keson <- function(qType, tabName, fromMonth, fromYear, toMonth, toYear, conn){
+querryHelper <- function(qType, tabName, fromMonth, fromYear, toMonth, toYear, conn){
   
   con <- conn
   delByDateDf1 = data.frame(Code = character(), Type = character(), CumDate = character(),WeekNo = double(), CoefType = character(),MonthlyDate = character(),Value = double(),Date = character())
